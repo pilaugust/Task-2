@@ -76,4 +76,9 @@ body, html {
     p{
         font-size: 13px;
     }
+
+    .ptext{
+        display: flex;
+        flex-direction: column;
+    }
 }
