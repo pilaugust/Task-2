@@ -66,7 +66,13 @@ body, html {
         background-attachment: scroll;
     }
     .border{
-        font-size: 18px;
+        .border {
+            font-size: 18px; /* Smaller font size for mobile */
+            padding: 8px; /* Adjust padding */
+            text-align: center; /* Ensure text is centered */
+            width: 100%; /* Ensure it takes full width on mobile */
+            box-sizing: border-box; /* Include padding in width calculation */
+        }
     }
 
     .header{
