@@ -65,4 +65,15 @@ body, html {
     .img1, .img2, .img3 {
         background-attachment: scroll;
     }
+    .border{
+        font-size: 20px;
+    }
+
+    .header{
+        font-size: 20px
+    }
+
+    p{
+        font-size: 13px;
+    }
 }
