@@ -73,6 +73,7 @@ body, html {
             width: 100%; /* Ensure it takes full width on mobile */
             box-sizing: border-box;
             height: 100%;
+            text-wrap: pretty;
         }
     }
 
